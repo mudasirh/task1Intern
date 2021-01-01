@@ -199,8 +199,7 @@ body {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-.container-order-detail .to-deliver-bill span {
-  background-color: #ff4f58;
+.container-order-detail .status span {
   color: #fff;
   padding: 5px;
   padding-left: 10px;
@@ -208,26 +207,16 @@ body {
 
   border-radius: 30px;
   font-weight: 600;
+}
+.container-order-detail .to-deliver-bill span {
+  background-color: #ff4f58;
 }
 .container-order-detail .completed span {
   background-color: #5b936b;
-  color: #fff;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-
-  border-radius: 30px;
-  font-weight: 600;
 }
+
 .container-order-detail .to-bill span {
   background-color: #f8c859;
-  color: #fff;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-
-  border-radius: 30px;
-  font-weight: 600;
 }
 
 .container-order-detail .details input[type="button"] {
@@ -236,5 +225,16 @@ body {
   padding: 6px;
   border: 0;
   color: #fff;
+}
+
+@media (max-width: 500px) {
+  .container-order-detail .details input[type="button"] {
+    padding: 3px;
+  }
+  .container-order-detail .status span {
+    font-size: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 /* end order details */
