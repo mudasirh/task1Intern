@@ -47,6 +47,11 @@ body {
     width: 200px;
   }
 }
+@media (max-width: 500px) {
+  .navigation-container input {
+    width: 150px;
+  }
+}
 
 .links-container {
   margin-bottom: 20px;
