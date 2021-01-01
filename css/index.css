@@ -105,6 +105,18 @@ body {
   margin-bottom: 8px;
 }
 
+.container-categories .categories {
+  display: none;
+}
+@media (max-width: 800px) {
+  .container-categories .toolbar {
+    display: none;
+  }
+  .container-categories .categories {
+    display: inline-block;
+  }
+}
+
 /* horizontal line */
 .horizontal-line {
   border: 0;
