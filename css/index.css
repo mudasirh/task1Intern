@@ -150,8 +150,11 @@ body {
 .container-order-count table tr td {
   padding-bottom: 10px;
 }
-.container-order-count table tr:nth-child(2) {
+.container-order-count table tr:nth-child(1) {
   font-weight: 600;
+}
+.container-order-count table tr:nth-child(2) {
+  font-weight: 700;
 }
 
 .container-order-progress {
